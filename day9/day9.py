@@ -191,7 +191,6 @@ def precompute_column_row_intervals(red_tiles, boundary_green=None):
     quick checks whether any contiguous integer y-range is entirely contained in
     the polygon for that column.
     """
-    from bisect import bisect_right
     xs = sorted(set(x for x, _ in red_tiles))
     ys = sorted(set(y for _, y in red_tiles))
     xs2 = xs + [max(xs) + 1]
