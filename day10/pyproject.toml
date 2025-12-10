@@ -1,0 +1,17 @@
+[project]
+name = "day10"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "mcgillij",email = "mcgillivray.jason@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scipy (>=1.16.3,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
